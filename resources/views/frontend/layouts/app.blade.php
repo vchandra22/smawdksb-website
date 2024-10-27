@@ -19,11 +19,16 @@
 
     <title>Document</title>
 </head>
-<body>
+<body class="antialiased bg-slate-50">
+<!--Navbar Area Start -->
+@include('frontend.layouts.navbar')
+<!--Navbar Area End -->
+
 <!-- Main Content Start-->
-<section class="antialiased">
+<section>
     @yield('content')
 </section>
 <!-- Main Content End-->
+
 </body>
 </html>
