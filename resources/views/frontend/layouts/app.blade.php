@@ -30,5 +30,9 @@
 </section>
 <!-- Main Content End-->
 
+<!--Footer Area Start -->
+@include('frontend.layouts.footer')
+<!--Footer Area End -->
+
 </body>
 </html>

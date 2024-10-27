@@ -1,7 +1,7 @@
 <nav class="bg-slate-50 border-gray-200 md:border-b">
     <div class="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="{{ asset('assets/img/logo-smawd-teks.png') }}" class="h-8 md:h-12" alt="Logo SMA Wiyata Dharma Kesamben" />
+            <img src="{{ asset('assets/img/logo-smawd-teks.png') }}" class="h-8 md:h-10 xl:h-12" alt="Logo SMA Wiyata Dharma Kesamben" />
         </a>
         <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-dropdown" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
