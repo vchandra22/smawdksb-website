@@ -20,7 +20,7 @@
 <ul>
     <li>Buka terminal dan Docker Desktop di komputer</li>
     <li>Buka directory di mana file project akan diinstall menggunakan perintah <code>cd</code> diikuti path</li>
-    <li>Clone project menggunakan perintah <code>git clone https://github.com/vchandra22/laravel-fullstack-starter.git</code></li>
+    <li>Clone project menggunakan perintah <code>git clone https://github.com/vchandra22/smawdksb-website.git</code></li>
     <li>Salin file <code>env.example</code> ke dalam file <code>.env</code></li>
     <li>Jalankan perintah <code>docker-compose build --no-cache</code></li>
     <li>Tunggu sampai proses build selesai, kemudian jalankan <code>docker-compose up -d</code></li>
