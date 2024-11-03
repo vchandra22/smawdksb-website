@@ -5,7 +5,7 @@
                 <div class="flex flex-col content-between h-full justify-between">
                     <div>
                         <a href="#" class="flex items-center">
-                            <img src="{{ asset('assets/img/logo-smawd-teks-footer.png')  }}" class="h-10 md:h-16 xl:h-24 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
+                            <img src="{{ asset('assets/img/logo-smawd-teks-footer.png')  }}" class="h-10 md:h-20 xl:h-24 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
                         </a>
                         <p class="my-6 text-sm md:text-lg font-regular text-slate-50">Brongkos RT 01 RW 01, Siraman, Kec. Kesamben, Kab. Blitar Prov. Jawa Timur</p>
                     </div>

@@ -4,7 +4,7 @@
     <section>
         <div class="min-h-screen">
             {{--carousel start--}}
-            <div id="default-carousel" class="relative w-full" data-carousel="slide">
+            <div id="default-carousel" class="relative w-full z-10" data-carousel="slide">
                 <!-- Carousel wrapper -->
                 <div class="relative overflow-hidden min-h-screen">
                     <!-- Item 1 -->
@@ -109,29 +109,131 @@
                     </div>
                 </div>
                 <!-- Slider controls -->
-                    <div class="absolute bottom-1.5 top-2/3 mt-6 gap-4 start-0 ms-2 xl:ms-28 z-30 flex items-center justify-center h-20 px-4 focus:outline-none">
-                        <button type="button" data-carousel-prev>
+                <div class="absolute bottom-1.5 top-2/3 mt-6 gap-4 start-0 md:-left-5 xl:ms-48 z-30 flex items-center justify-center h-20 px-4 focus:outline-none">
+                    <button type="button" data-carousel-prev>
                         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 hover:bg-white/50">
                             <svg class="w-2 h-2 md:w-4 md:h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
                             </svg>
                             <span class="sr-only">Previous</span>
                         </span>
-                        </button>
-                        <button type="button" data-carousel-next>
+                    </button>
+                    <button type="button" data-carousel-next>
                         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 hover:bg-white/50">
                             <svg class="w-2 h-2 md:w-4 md:h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                             </svg>
                             <span class="sr-only">Next</span>
                         </span>
-                        </button>
-                    </div>
+                    </button>
+                </div>
             </div>
             {{--carousel end--}}
-            <div class="max-w-screen-2xl mx-auto p-4 min-h-screen bg-red-200">
 
+            {{--sambutan kepala sekolah start--}}
+            <div class="max-w-screen-2xl mx-auto py-20 px-4 ">
+                <div class="grid grid-cols-1 justify-center md:grid-cols-5 gap-4 p-4 md:p-8 bg-slate-100 rounded-md">
+                    <div class="w-full">
+                        <div class="h-full flex items-center border border-slate-400 rounded-md">
+                            <img class="object-cover h-full overflow-hidden w-full rounded-md" src="{{ asset("assets/img/carousel-image.webp")  }}" alt="#">
+                        </div>
+                    </div>
+                    <div class="col-span-2 w-full">
+                        <div class="flex flex-col gap-4 p-4">
+                            <h3 class="text-4xl text-slate-800 font-semibold">Sambutan Kepala Sekolah</h3>
+                            <p class="text-md text-justify overflow-hidden font-light tracking-tight line-clamp-6 text-slate-400 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut cum debitis doloremque eveniet explicabo illo modi provident repellendus? Aut blanditiis deleniti error odit officia reprehenderit. Accusantium aliquam animi at atque consequatur delectus dignissimos distinctio doloribus ducimus eius esse expedita fugit inventore itaque labore laborum libero modi, molestias omnis pariatur perferendis porro quia quidem ratione sequi soluta ut. A ad, adipisci aspernatur assumenda beatae culpa cumque cupiditate delectus dicta dolor dolorem doloribus ducimus earum eius facilis labore maxime modi, nesciunt, nihil nulla officia omnis quasi recusandae suscipit veniam vero voluptate voluptates. Odio, quod?</p>
+                            <a href="#" class="inline-flex items-start px-0 py-2 text-md font-normal text-center md:text-start text-red-500 hover:underline hover:text-red-800">
+                                Selengkapnya...
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-span-2 w-full h-full">
+                        <div class="flex flex-col items-center gap-8 md:gap-10">
+                            <h3 class="text-4xl text-red-500 text-center font-semibold">Statistik Data Sekolah</h3>
+                            <div class="flex flex-col md:flex-row gap-4 items-center w-full justify-center">
+                                <div class="w-full h-full text-center">
+                                    <h5 class="text-7xl md:text-7xl xl:text-8xl font-bold text-red-500">32</h5>
+                                    <h5 class="text-xl lg:text-2xl mt-4 md:mt-8 font-semibold text-red-500 min-h-20">Guru & Staff</h5>
+                                </div>
+                                    <div class="w-full h-full text-center">
+                                        <h5 class="text-7xl md:text-7xl xl:text-8xl font-bold text-red-500">248</h5>
+                                        <h5 class="text-xl lg:text-2xl mt-4 md:mt-8 font-semibold text-red-500 min-h-20">Peserta Didik</h5>
+                                    </div>
+                                    <div class="w-full h-full text-center">
+                                        <h5 class="text-7xl md:text-7xl xl:text-8xl font-bold text-red-500">12</h5>
+                                        <h5 class="text-xl lg:text-2xl mt-4 md:mt-8 font-semibold text-red-500 min-h-20">Rombel</h5>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        {{--sambutan kepala sekolah end--}}
+
+        {{--agenda kegiatan start--}}
+        <div class="py-20 bg-slate-100 px-4">
+            <div class="max-w-screen-2xl mx-auto">
+                <div class="flex items-center justify-between gap-4">
+                    <div>
+                        <h2 class="text-red-600 text-4xl md:text-6xl font-extrabold text-start">Agenda Kegiatan</h2>
+                        <p class="mt-4 text-md font-normal tracking-wide text-slate-800">Agenda kegiatan dan aktivitas sesuai dengan kalender pendidikan</p>
+                    </div>
+                    <a href="#" class="inline-flex items-center justify-start p-4 rounded-full md:px-8 md:py-2 text-sm font-normal text-center text-slate-50 bg-slate-800 rounded-md hover:bg-slate-700">
+                        <span class="hidden md:block">
+                            Selengkapnya
+                        </span>
+                        <svg class="w-3.5 h-3.5 md:ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center w-full">
+                    <div class="flex justify-start items-center gap-8 block w-full px-6 py-4 bg-white border border-slate-200 rounded-md hover:bg-slate-50">
+                        <div class="text-slate-800">
+                            <i class="fa-solid fa-calendar fa-4x"></i>
+                        </div>
+                        <div>
+                            <div class="flex-col gap-2 items-center">
+                                <h5 class="mb-2 text-lg md:text-2xl font-bold overflow-hidden line-clamp-2 tracking-tight text-slate-800 align-middle min-h-14 md:min-h-16">Masa Pengenalan Lingkungan Sekolah (MPLS)</h5>
+                                <hr class="w-full">
+                                <p class="mt-2 text-md text-red-500">10 Juli 2024 - 18 Juli 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-start items-center gap-8 block w-full px-6 py-4 bg-white border border-slate-200 rounded-md hover:bg-slate-50">
+                        <div class="text-slate-800">
+                            <i class="fa-solid fa-calendar fa-4x"></i>
+                        </div>
+                        <div>
+                            <div class="flex-col gap-2 items-center">
+                                <h5 class="mb-2 text-lg md:text-2xl font-bold overflow-hidden line-clamp-2 tracking-tight text-slate-800 align-middle min-h-14 md:min-h-16">Libur Kenaikan Kelas</h5>
+                                <hr class="w-full">
+                                <p class="mt-2 text-md text-red-500">27 November 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-start items-center gap-8 block w-full px-6 py-4 bg-white border border-slate-200 rounded-md hover:bg-slate-50">
+                        <div class="text-slate-800">
+                            <i class="fa-solid fa-calendar fa-4x"></i>
+                        </div>
+                        <div>
+                            <div class="flex-col gap-2 items-center">
+                                <h5 class="mb-2 text-lg md:text-2xl font-bold overflow-hidden line-clamp-2 tracking-tight text-slate-800 align-middle min-h-14 md:min-h-16">Libur Umum (Tahun Baru Islam 1444 H)</h5>
+                                <hr class="w-full">
+                                <p class="mt-2 text-md text-red-500">10 Juli 2024 - 18 Juli 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{--agenda kegiatan end--}}
+        <div>
+
+        </div>
+
     </section>
 @endsection

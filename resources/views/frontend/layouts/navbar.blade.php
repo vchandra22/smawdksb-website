@@ -19,7 +19,7 @@
                         </svg>
                     </button>
                     <!-- Dropdown menu -->
-                    <div id="dropdownNavbar-1" class="z-10 hidden font-normal border bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                    <div id="dropdownNavbar-1" class="z-50 hidden font-normal border bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
                         <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                             <li>
                                 <a href="#" class="block px-4 py-2 hover:bg-gray-100">Profil Sekolah</a>
@@ -44,7 +44,7 @@
                         </svg>
                     </button>
                     <!-- Dropdown menu -->
-                    <div id="dropdownNavbar-2" class="z-10 hidden font-normal border bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                    <div id="dropdownNavbar-2" class="z-50 hidden font-normal border bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
                         <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                             <li>
                                 <a href="#" class="block px-4 py-2 hover:bg-gray-100">Profil Sekolah</a>
@@ -69,7 +69,7 @@
                         </svg>
                     </button>
                     <!-- Dropdown menu -->
-                    <div id="dropdownNavbar-3" class="z-10 hidden font-normal border bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                    <div id="dropdownNavbar-3" class="z-50 hidden font-normal border bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
                         <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                             <li>
                                 <a href="#" class="block px-4 py-2 hover:bg-gray-100">Profil Sekolah</a>
@@ -94,7 +94,7 @@
                         </svg>
                     </button>
                     <!-- Dropdown menu -->
-                    <div id="dropdownNavbar-4" class="z-10 hidden font-normal border bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                    <div id="dropdownNavbar-4" class="z-50 hidden font-normal border bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
                         <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                             <li>
                                 <a href="#" class="block px-4 py-2 hover:bg-gray-100">Profil Sekolah</a>

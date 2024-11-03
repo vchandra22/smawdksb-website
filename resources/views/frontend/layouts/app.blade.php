@@ -31,6 +31,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+    {{-- Load font awesome icons --}}
+    <script src="https://kit.fontawesome.com/bfb24335ca.js" crossorigin="anonymous"></script>
 
     {{--Load CSS and JS files with Vite--}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
