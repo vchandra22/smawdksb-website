@@ -246,12 +246,12 @@
                              class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                              height="100" alt="#">
                         <div
-                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 ease-in-out">
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out">
                         </div>
                         <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
                             <div class="h-full flex flex-col justify-end">
                                 <h3
-                                    class="text-slate-50 font-semibold min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
                                     Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
                                 </h3>
                                 <p
@@ -268,12 +268,12 @@
                              class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                              height="100" alt="#">
                         <div
-                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 ease-in-out">
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out">
                         </div>
                         <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
                             <div class="h-full flex flex-col justify-end">
                                 <h3
-                                    class="text-slate-50 font-semibold min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
                                     Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
                                 </h3>
                                 <p
@@ -290,12 +290,12 @@
                              class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                              height="100" alt="#">
                         <div
-                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 ease-in-out">
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out">
                         </div>
                         <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
                             <div class="h-full flex flex-col justify-end">
                                 <h3
-                                    class="text-slate-50 font-semibold min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
                                     Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
                                 </h3>
                                 <p
@@ -312,12 +312,12 @@
                              class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                              height="100" alt="#">
                         <div
-                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 ease-in-out">
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out">
                         </div>
                         <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
                             <div class="h-full flex flex-col justify-end">
                                 <h3
-                                    class="text-slate-50 font-semibold min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
                                     Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
                                 </h3>
                                 <p
@@ -334,12 +334,12 @@
                              class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                              height="100" alt="#">
                         <div
-                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 ease-in-out">
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out">
                         </div>
                         <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
                             <div class="h-full flex flex-col justify-end">
                                 <h3
-                                    class="text-slate-50 font-semibold min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
                                     Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
                                 </h3>
                                 <p
@@ -351,9 +351,141 @@
                     </a>
 
                 </div>
+                <div class="flex justify-center mt-8">
+                    <a href="#" class="inline-flex items-center justify-center p-4 md:px-6 md:py-2 text-lg font-normal text-center text-slate-50 bg-slate-800 rounded-md hover:bg-slate-700">
+                        <span class="hidden md:block">
+                            Selengkapnya
+                        </span>
+                        <svg class="w-3.5 h-3.5 md:ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
         {{--berita artikel informasi end--}}
+
+        {{--staff pengajar start--}}
+        <div class="py-20 bg-slate-50 px-4">
+            <div class="max-w-screen-2xl mx-auto">
+                <div class="flex items-center justify-between gap-4">
+                    <div>
+                        <h2 class="text-red-600 text-4xl md:text-6xl font-extrabold text-start">Staff Pengajar</h2>
+                        <p class="mt-4 text-md font-normal tracking-wide text-slate-800">Guru dan Tenaga Pengajar Sekolah Kami</p>
+                    </div>
+                    <a href="#" class="inline-flex items-center justify-start p-4 md:px-8 md:py-2 text-sm font-normal text-center text-slate-50 bg-slate-800 rounded-md hover:bg-slate-700">
+                        <span class="hidden md:block">
+                            Selengkapnya
+                        </span>
+                        <svg class="w-3.5 h-3.5 md:ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center items-center w-full">
+                    <a href="#" class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group" data-aos="fade"
+                       data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-once="true">
+                        <img src="{{ asset("assets/img/carousel-image.webp") }}"
+                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
+                             height="100" alt="#">
+                        <div
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out">
+                        </div>
+                        <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                            <div class="h-full flex flex-col justify-end">
+                                <h3
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    Dewi Retnowati S.Pd.
+                                </h3>
+                                <p
+                                    class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
+                                    Matematika
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group" data-aos="fade"
+                       data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-once="true">
+                        <img src="{{ asset("assets/img/carousel-image.webp") }}"
+                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
+                             height="100" alt="#">
+                        <div
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out">
+                        </div>
+                        <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                            <div class="h-full flex flex-col justify-end">
+                                <h3
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    Dewi Retnowati S.Pd.
+                                </h3>
+                                <p
+                                    class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
+                                    Matematika
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group" data-aos="fade"
+                       data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-once="true">
+                        <img src="{{ asset("assets/img/carousel-image.webp") }}"
+                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
+                             height="100" alt="#">
+                        <div
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out">
+                        </div>
+                        <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                            <div class="h-full flex flex-col justify-end">
+                                <h3
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    Dewi Retnowati S.Pd.
+                                </h3>
+                                <p
+                                    class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
+                                    Matematika
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group" data-aos="fade"
+                       data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out" data-aos-once="true">
+                        <img src="{{ asset("assets/img/carousel-image.webp") }}"
+                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
+                             height="100" alt="#">
+                        <div
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out">
+                        </div>
+                        <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                            <div class="h-full flex flex-col justify-end">
+                                <h3
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    Dewi Retnowati S.Pd.
+                                </h3>
+                                <p
+                                    class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
+                                    Matematika
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="flex justify-center mt-8">
+                    <a href="#" class="inline-flex items-center justify-center p-4 md:px-6 md:py-2 text-lg font-normal text-center text-slate-50 bg-slate-800 rounded-md hover:bg-slate-700">
+                        <span class="hidden md:block">
+                            Selengkapnya
+                        </span>
+                        <svg class="w-3.5 h-3.5 md:ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        {{--staff pengajar end--}}
 
     </section>
 @endsection
