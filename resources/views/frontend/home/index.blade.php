@@ -242,7 +242,7 @@
                 </div>
                 <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center w-full">
                     <div
-                        class="flex justify-start items-center gap-8 w-full px-6 py-4 bg-white border border-slate-200 rounded-md hover:bg-slate-50">
+                        class="flex justify-start items-center gap-8 w-full px-6 py-4 bg-white border border-slate-200 rounded-md hover:bg-slate-50 hover:shadow-sm duration-700 ease-in-out">
                         <div class="text-slate-800">
                             <i class="fa-solid fa-calendar fa-4x"></i>
                         </div>
@@ -258,7 +258,7 @@
                     </div>
 
                     <div
-                        class="flex justify-start items-center gap-8 w-full px-6 py-4 bg-white border border-slate-200 rounded-md hover:bg-slate-50">
+                        class="flex justify-start items-center gap-8 w-full px-6 py-4 bg-white border border-slate-200 rounded-md hover:bg-slate-50  hover:shadow-sm duration-700 ease-in-out">
                         <div class="text-slate-800">
                             <i class="fa-solid fa-calendar fa-4x"></i>
                         </div>
@@ -274,7 +274,7 @@
                     </div>
 
                     <div
-                        class="flex justify-start items-center gap-8 w-full px-6 py-4 bg-white border border-slate-200 rounded-md hover:bg-slate-50">
+                        class="flex justify-start items-center gap-8 w-full px-6 py-4 bg-white border border-slate-200 rounded-md hover:bg-slate-50  hover:shadow-sm duration-700 ease-in-out">
                         <div class="text-slate-800">
                             <i class="fa-solid fa-calendar fa-4x"></i>
                         </div>
@@ -904,6 +904,244 @@
             </div>
         </div>
         {{-- fasilitas sekolah end --}}
+
+        {{-- ekstra start --}}
+        <div class="py-20 bg-slate-50 px-4">
+            <div class="max-w-screen-2xl mx-auto">
+                <div class="flex items-center justify-between gap-4">
+                    <div>
+                        <h2 class="text-red-600 text-4xl md:text-6xl font-extrabold text-start">Kegiatan Ekstrakulikuler
+                        </h2>
+                        <p class="mt-4 text-md font-normal tracking-wide text-slate-800">
+                            Ekspresikan Bakat dan Minat Melalui Kegiatan Ekstrakurikuler di Sekolah Kami
+                        </p>
+                    </div>
+                    <a href="#"
+                        class="inline-flex items-center justify-start p-4 md:px-8 md:py-2 text-sm font-normal text-center text-slate-50 bg-slate-800 rounded-md hover:bg-slate-700">
+                        <span class="hidden md:block">
+                            Selengkapnya
+                        </span>
+                        <svg class="w-3.5 h-3.5 md:ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 5h12m0 0L9 1m4 4L9 9" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="relative w-full z-10 mt-12" data-carousel="static">
+                    <div class="min-h-screen md:min-h-72 relative overflow-hidden">
+                        <div class="hidden duration-300 px-4 ease-in-out" data-carousel-item>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center h-full w-full">
+                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
+                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
+                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                    <img src="{{ asset('assets/img/carousel-image.webp') }}"
+                                        class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                                        width="100" height="100" alt="#">
+                                    <div
+                                        class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                                    </div>
+                                    <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                                        <div class="h-full flex flex-col justify-center items-center">
+                                            <h3
+                                                class="text-slate-50 font-semibold text-center text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                                Futsal
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
+                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
+                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                    <img src="{{ asset('assets/img/carousel-image.webp') }}"
+                                        class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                                        width="100" height="100" alt="#">
+                                    <div
+                                        class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                                    </div>
+                                    <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                                        <div class="h-full flex flex-col justify-center items-center">
+                                            <h3
+                                                class="text-slate-50 font-semibold text-center text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                                Futsal
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
+                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
+                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                    <img src="{{ asset('assets/img/carousel-image.webp') }}"
+                                        class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                                        width="100" height="100" alt="#">
+                                    <div
+                                        class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                                    </div>
+                                    <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                                        <div class="h-full flex flex-col justify-center items-center">
+                                            <h3
+                                                class="text-slate-50 font-semibold text-center text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                                Futsal
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden duration-300 px-4 ease-in-out" data-carousel-item>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center h-full w-full">
+                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
+                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
+                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                    <img src="{{ asset('assets/img/carousel-image.webp') }}"
+                                        class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                                        width="100" height="100" alt="#">
+                                    <div
+                                        class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                                    </div>
+                                    <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                                        <div class="h-full flex flex-col justify-center items-center">
+                                            <h3
+                                                class="text-slate-50 font-semibold text-center text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                                Futsal
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
+                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
+                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                    <img src="{{ asset('assets/img/carousel-image.webp') }}"
+                                        class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                                        width="100" height="100" alt="#">
+                                    <div
+                                        class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                                    </div>
+                                    <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                                        <div class="h-full flex flex-col justify-center items-center">
+                                            <h3
+                                                class="text-slate-50 font-semibold text-center text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                                Futsal
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
+                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
+                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                    <img src="{{ asset('assets/img/carousel-image.webp') }}"
+                                        class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                                        width="100" height="100" alt="#">
+                                    <div
+                                        class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                                    </div>
+                                    <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                                        <div class="h-full flex flex-col justify-center items-center">
+                                            <h3
+                                                class="text-slate-50 font-semibold text-center text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                                Futsal
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden duration-300 px-4 ease-in-out" data-carousel-item>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center h-full w-full">
+                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
+                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
+                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                    <img src="{{ asset('assets/img/carousel-image.webp') }}"
+                                        class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                                        width="100" height="100" alt="#">
+                                    <div
+                                        class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                                    </div>
+                                    <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                                        <div class="h-full flex flex-col justify-center items-center">
+                                            <h3
+                                                class="text-slate-50 font-semibold text-center text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                                Futsal
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
+                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
+                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                    <img src="{{ asset('assets/img/carousel-image.webp') }}"
+                                        class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                                        width="100" height="100" alt="#">
+                                    <div
+                                        class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                                    </div>
+                                    <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                                        <div class="h-full flex flex-col justify-center items-center">
+                                            <h3
+                                                class="text-slate-50 font-semibold text-center text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                                Futsal
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
+                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
+                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                    <img src="{{ asset('assets/img/carousel-image.webp') }}"
+                                        class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                                        width="100" height="100" alt="#">
+                                    <div
+                                        class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                                    </div>
+                                    <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                                        <div class="h-full flex flex-col justify-center items-center">
+                                            <h3
+                                                class="text-slate-50 font-semibold text-center text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                                Futsal
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex gap-4 justify-center items-center">
+                        <button type="button" data-carousel-prev>
+                            <span
+                                class="inline-flex items-center justify-center w-10 h-10 rounded-full border-2 border-slate-400 bg-white/30 hover:bg-white/50">
+                                <svg class="w-2 h-2 md:w-4 md:h-4 text-slate-400 dark:text-gray-800 rtl:rotate-180"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M5 1 1 5l4 4" />
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button" data-carousel-next>
+                            <span
+                                class="inline-flex items-center justify-center w-10 h-10 rounded-full border-2 border-slate-400 bg-white/30 hover:bg-white/50">
+                                <svg class="w-2 h-2 md:w-4 md:h-4 text-slate-400 dark:text-gray-800 rtl:rotate-180"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 9 4-4-4-4" />
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- ekstra end --}}
 
     </section>
 @endsection
