@@ -1,35 +1,41 @@
 <footer class="bg-slate-800">
-    <div class="mx-auto w-full max-w-screen-2xl p-4 py-6 lg:py-8">
+    <div class="mx-auto w-full p-4 py-6 lg:py-8">
         <div class="md:grid md:grid-cols-5 md:gap-8">
             <div class="mb-6 md:col-span-3 md:mb-0">
                 <div class="flex flex-col content-between h-full justify-between">
                     <div>
                         <a href="#" class="flex items-center">
-                            <img src="{{ asset('assets/img/logo-smawd-teks-footer.png')  }}" class="h-10 md:h-20 xl:h-24 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
+                            <img src="{{ asset('assets/img/logo-smawd-teks-footer.png') }}"
+                                class="h-10 md:h-20 xl:h-24 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
                         </a>
-                        <p class="my-6 text-sm md:text-lg font-regular text-slate-50">Brongkos RT 01 RW 01, Siraman, Kec. Kesamben, Kab. Blitar Prov. Jawa Timur</p>
+                        <p class="my-6 text-sm md:text-lg font-regular text-slate-50">Brongkos RT 01 RW 01, Siraman,
+                            Kec. Kesamben, Kab. Blitar Prov. Jawa Timur</p>
                     </div>
                     <div class="mb-8">
                         <p class="mb-6 text-xl font-semibold tracking-wide text-slate-50">Sosial Media</p>
                         <ul class="text-slate-50 text-lg font-regular flex gap-2 items-center">
                             <li>
                                 <a href="#">
-                                    <img src="{{ asset('assets/icons/fa-brands-whatsapp.png')  }}" class="h-8 md:h-10 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
+                                    <img src="{{ asset('assets/icons/fa-brands-whatsapp.png') }}"
+                                        class="h-8 md:h-10 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="{{ asset('assets/icons/fa-brands-facebook.png')  }}" class="h-8 md:h-10 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
+                                    <img src="{{ asset('assets/icons/fa-brands-facebook.png') }}"
+                                        class="h-8 md:h-10 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="{{ asset('assets/icons/fa-brands-instagram.png')  }}" class="h-8 md:h-10 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
+                                    <img src="{{ asset('assets/icons/fa-brands-instagram.png') }}"
+                                        class="h-8 md:h-10 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="{{ asset('assets/icons/fa-brands-youtube.png')  }}" class="h-8 md:h-10 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
+                                    <img src="{{ asset('assets/icons/fa-brands-youtube.png') }}"
+                                        class="h-8 md:h-10 me-3" alt="Logo SMA Wiyata Dharma Kesamben" />
                                 </a>
                             </li>
                         </ul>
@@ -94,8 +100,9 @@
             </div>
         </div>
     </div>
-        <div class="sm:flex sm:items-center sm:justify-center bg-black py-2">
-          <span class="text-md text-slate-50 text-center sm:text-center">© 2024 <a href="#" class="hover:underline">SMA Wiyata Dharma Kesamben</a>.
-          </span>
-        </div>
+    <div class="sm:flex sm:items-center sm:justify-center bg-black py-2">
+        <span class="text-md text-slate-50 text-center sm:text-center">© 2024 <a href="#"
+                class="hover:underline">SMA Wiyata Dharma Kesamben</a>.
+        </span>
+    </div>
 </footer>

@@ -54,5 +54,6 @@
 @include('frontend.layouts.footer')
 <!--Footer Area End -->
 
+@stack('scripts')
 </body>
 </html>
