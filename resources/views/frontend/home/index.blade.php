@@ -141,7 +141,7 @@
                     <button type="button" data-carousel-prev>
                         <span
                             class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 hover:bg-white/50">
-                            <svg class="w-2 h-2 md:w-4 md:h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                            <svg class="w-2 h-2 md:w-4 md:h-4 text-white hover:text-slate-400 rtl:rotate-180"
                                 aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M5 1 1 5l4 4" />
@@ -151,8 +151,8 @@
                     </button>
                     <button type="button" data-carousel-next>
                         <span
-                            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 hover:bg-white/50">
-                            <svg class="w-2 h-2 md:w-4 md:h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 hover:bg-slate-800">
+                            <svg class="w-2 h-2 md:w-4 md:h-4 text-white hover:text-slate-400 rtl:rotate-180"
                                 aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="m1 9 4-4-4-4" />
@@ -165,8 +165,9 @@
             {{-- carousel end --}}
 
             {{-- sambutan kepala sekolah start --}}
-            <div class="max-w-screen-2xl mx-auto py-20 px-4 ">
-                <div class="grid grid-cols-1 justify-center md:grid-cols-5 gap-4 p-4 md:p-8 bg-slate-100 rounded-md">
+            <div class="max-w-screen-2xl mx-auto py-20 px-4">
+                <div
+                    class="grid grid-cols-1 justify-center md:grid-cols-5 gap-4 p-4 md:p-8 bg-slate-100 rounded-md shadow-sm">
                     <div class="w-full">
                         <div class="h-full flex items-center border border-slate-400 rounded-md">
                             <img class="object-cover h-full overflow-hidden w-full rounded-sm"
@@ -422,7 +423,6 @@
                             </div>
                         </div>
                     </a>
-
                 </div>
                 <div class="flex justify-center mt-8">
                     <a href="#"
@@ -878,9 +878,8 @@
                         <button type="button" data-carousel-prev>
                             <span
                                 class="inline-flex items-center justify-center w-10 h-10 rounded-full border-2 border-slate-400 bg-white/30 hover:bg-white/50">
-                                <svg class="w-2 h-2 md:w-4 md:h-4 text-slate-400 dark:text-gray-800 rtl:rotate-180"
-                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 6 10">
+                                <svg class="w-2 h-2 md:w-4 md:h-4 text-slate-400 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="M5 1 1 5l4 4" />
                                 </svg>
@@ -890,9 +889,8 @@
                         <button type="button" data-carousel-next>
                             <span
                                 class="inline-flex items-center justify-center w-10 h-10 rounded-full border-2 border-slate-400 bg-white/30 hover:bg-white/50">
-                                <svg class="w-2 h-2 md:w-4 md:h-4 text-slate-400 dark:text-gray-800 rtl:rotate-180"
-                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 6 10">
+                                <svg class="w-2 h-2 md:w-4 md:h-4 text-slate-400 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
@@ -1116,9 +1114,8 @@
                         <button type="button" data-carousel-prev>
                             <span
                                 class="inline-flex items-center justify-center w-10 h-10 rounded-full border-2 border-slate-400 bg-white/30 hover:bg-white/50">
-                                <svg class="w-2 h-2 md:w-4 md:h-4 text-slate-400 dark:text-gray-800 rtl:rotate-180"
-                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 6 10">
+                                <svg class="w-2 h-2 md:w-4 md:h-4 text-slate-400 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="M5 1 1 5l4 4" />
                                 </svg>
@@ -1128,9 +1125,8 @@
                         <button type="button" data-carousel-next>
                             <span
                                 class="inline-flex items-center justify-center w-10 h-10 rounded-full border-2 border-slate-400 bg-white/30 hover:bg-white/50">
-                                <svg class="w-2 h-2 md:w-4 md:h-4 text-slate-400 dark:text-gray-800 rtl:rotate-180"
-                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 6 10">
+                                <svg class="w-2 h-2 md:w-4 md:h-4 text-slate-400 rtl:rotate-180" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" d="m1 9 4-4-4-4" />
                                 </svg>
