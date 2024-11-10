@@ -44,7 +44,7 @@
 
     {{-- berita card list start --}}
     <section class="max-w-screen-2xl mx-auto bg-slate-50">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-12 px-4">
             <a href="#" class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
                 data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
                 data-aos-once="true">

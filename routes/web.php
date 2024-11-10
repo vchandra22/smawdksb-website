@@ -11,3 +11,6 @@ Route::get('/berita', function () {
 Route::get('/berita/detail', function () {
     return view('frontend/berita/show');
 });
+Route::get('/agenda', function () {
+    return view('frontend/agenda/index');
+});

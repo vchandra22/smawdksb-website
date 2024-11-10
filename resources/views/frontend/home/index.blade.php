@@ -303,11 +303,9 @@
                     <p class="mt-4 text-md font-normal text-center tracking-wide text-slate-800">Simak laporan langsung
                         dari berbagai kegiatan sekolah.</p>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
                     <a href="#"
-                        class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -329,9 +327,7 @@
                     </a>
 
                     <a href="#"
-                        class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -353,9 +349,7 @@
                     </a>
 
                     <a href="#"
-                        class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -377,9 +371,7 @@
                     </a>
 
                     <a href="#"
-                        class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -401,9 +393,7 @@
                     </a>
 
                     <a href="#"
-                        class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -464,9 +454,7 @@
                 </div>
                 <div class="mt-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center items-center w-full">
                     <a href="#"
-                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -488,9 +476,7 @@
                     </a>
 
                     <a href="#"
-                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -512,9 +498,7 @@
                     </a>
 
                     <a href="#"
-                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -536,9 +520,7 @@
                     </a>
 
                     <a href="#"
-                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -600,9 +582,7 @@
                 </div>
                 <div class="mt-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center items-center w-full">
                     <a href="#"
-                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -624,9 +604,7 @@
                     </a>
 
                     <a href="#"
-                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -648,9 +626,7 @@
                     </a>
 
                     <a href="#"
-                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -672,9 +648,7 @@
                     </a>
 
                     <a href="#"
-                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                        data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
-                        data-aos-once="true">
+                        class="relative w-full h-96 lg:h-[34rem] border-2 bg-slate-100 border-slate-400 rounded-lg group">
                         <img src="{{ asset('assets/img/carousel-image.webp') }}"
                             class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
                             height="100" alt="#">
@@ -740,9 +714,8 @@
                     <div class="min-h-screen md:min-h-72 relative overflow-hidden">
                         <div class="hidden duration-300 px-4 ease-in-out" data-carousel-item>
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center h-full w-full">
-                                <div class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out">
                                     <div class="grid grid-cols-3 items-center">
                                         <div class="relative">
                                             <img src="{{ asset('assets/img/carousel-image.webp') }}"
@@ -761,9 +734,8 @@
                                     </div>
                                 </div>
 
-                                <div class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out">
                                     <div class="grid grid-cols-3 items-center">
                                         <div class="relative">
                                             <img src="{{ asset('assets/img/carousel-image.webp') }}"
@@ -785,9 +757,8 @@
                         </div>
                         <div class="hidden duration-300 px-4 ease-in-out" data-carousel-item>
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center h-full w-full">
-                                <div class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out">
                                     <div class="grid grid-cols-3 items-center">
                                         <div class="relative">
                                             <img src="{{ asset('assets/img/carousel-image.webp') }}"
@@ -806,9 +777,8 @@
                                     </div>
                                 </div>
 
-                                <div class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out">
                                     <div class="grid grid-cols-3 items-center">
                                         <div class="relative">
                                             <img src="{{ asset('assets/img/carousel-image.webp') }}"
@@ -830,9 +800,8 @@
                         </div>
                         <div class="hidden duration-300 px-4 ease-in-out" data-carousel-item>
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center h-full w-full">
-                                <div class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out">
                                     <div class="grid grid-cols-3 items-center">
                                         <div class="relative">
                                             <img src="{{ asset('assets/img/carousel-image.webp') }}"
@@ -851,9 +820,8 @@
                                     </div>
                                 </div>
 
-                                <div class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="w-full h-auto bg-slate-800 rounded-lg group hover:shadow-md duration-300 ease-in-out">
                                     <div class="grid grid-cols-3 items-center">
                                         <div class="relative">
                                             <img src="{{ asset('assets/img/carousel-image.webp') }}"
@@ -930,10 +898,10 @@
                 <div class="relative w-full z-10 mt-12" data-carousel="static">
                     <div class="min-h-screen md:min-h-72 relative overflow-hidden">
                         <div class="hidden duration-300 px-4 ease-in-out" data-carousel-item>
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center h-full w-full">
-                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                            <div
+                                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-center h-full w-full">
+                                <div
+                                    class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                                     <img src="{{ asset('assets/img/carousel-image.webp') }}"
                                         class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
                                         width="100" height="100" alt="#">
@@ -950,9 +918,8 @@
                                     </div>
                                 </div>
 
-                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                                     <img src="{{ asset('assets/img/carousel-image.webp') }}"
                                         class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
                                         width="100" height="100" alt="#">
@@ -969,9 +936,8 @@
                                     </div>
                                 </div>
 
-                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                                     <img src="{{ asset('assets/img/carousel-image.webp') }}"
                                         class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
                                         width="100" height="100" alt="#">
@@ -990,10 +956,10 @@
                             </div>
                         </div>
                         <div class="hidden duration-300 px-4 ease-in-out" data-carousel-item>
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center h-full w-full">
-                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                            <div
+                                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-center h-full w-full">
+                                <div
+                                    class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                                     <img src="{{ asset('assets/img/carousel-image.webp') }}"
                                         class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
                                         width="100" height="100" alt="#">
@@ -1010,9 +976,8 @@
                                     </div>
                                 </div>
 
-                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                                     <img src="{{ asset('assets/img/carousel-image.webp') }}"
                                         class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
                                         width="100" height="100" alt="#">
@@ -1029,9 +994,8 @@
                                     </div>
                                 </div>
 
-                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                                     <img src="{{ asset('assets/img/carousel-image.webp') }}"
                                         class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
                                         width="100" height="100" alt="#">
@@ -1050,10 +1014,10 @@
                             </div>
                         </div>
                         <div class="hidden duration-300 px-4 ease-in-out" data-carousel-item>
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center h-full w-full">
-                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                            <div
+                                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-center h-full w-full">
+                                <div
+                                    class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                                     <img src="{{ asset('assets/img/carousel-image.webp') }}"
                                         class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
                                         width="100" height="100" alt="#">
@@ -1070,9 +1034,8 @@
                                     </div>
                                 </div>
 
-                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                                     <img src="{{ asset('assets/img/carousel-image.webp') }}"
                                         class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
                                         width="100" height="100" alt="#">
@@ -1089,9 +1052,8 @@
                                     </div>
                                 </div>
 
-                                <div class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
-                                    data-aos="fade" data-aos-delay="600" data-aos-duration="600"
-                                    data-aos-easing="ease-in-out" data-aos-once="true">
+                                <div
+                                    class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group">
                                     <img src="{{ asset('assets/img/carousel-image.webp') }}"
                                         class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
                                         width="100" height="100" alt="#">

@@ -58,7 +58,7 @@
                         <img src="{{ asset('assets/img/foto-siswa.webp') }}" class="object-cover w-full h-full rounded-md"
                             width="100" height="100" alt="gambar detail berita">
                     </div>
-                    <article class="prose prose-sm md:prose-lg lg:col-span-2 m-4 lg:m-0 pt-4 max-w-none">
+                    <article class="prose prose-sm md:prose-lg lg:col-span-2 m-4 lg:m-0 pt-4 max-w-none lg:pb-20">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua. Massa id neque aliquam vestibulum morbi blandit cursus risus. Egestas
                         maecenas pharetra convallis posuere morbi leo. Et malesuada fames ac turpis egestas sed. Purus non
