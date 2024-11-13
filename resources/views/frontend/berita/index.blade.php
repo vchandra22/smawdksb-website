@@ -15,7 +15,7 @@
                     <li class="inline-flex items-center">
                         <a href="#"
                             class="inline-flex items-center text-sm md:text-md font-medium text-slate-200 hover:text-slate-50 hover:underline hover:text-accent">
-                            Home
+                            Beranda
                         </a>
                     </li>
                     <li>

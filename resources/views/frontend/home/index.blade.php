@@ -540,7 +540,6 @@
                             </div>
                         </div>
                     </a>
-
                 </div>
                 <div class="flex justify-center mt-8">
                     <a href="#"
