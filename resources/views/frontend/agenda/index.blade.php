@@ -46,7 +46,7 @@
     {{-- detail berita start --}}
     <section class="bg-slate-50 py-12">
         <div class="max-w-screen-2xl mx-auto min-h-screen">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start justify-between w-full">
                 <div class="col-span-2 w-full px-4 py-0">
                     <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center w-full">
                         <div
@@ -309,7 +309,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-start p-8 m-4 lg:m-0 bg-slate-100 rounded-lg lg:sticky lg:top-16 lg:h-fit lg:z-10">
+                <div class="text-start p-8 m-4 lg:m-0 bg-slate-100 w-full rounded-lg lg:sticky lg:top-16 lg:h-fit lg:z-10">
                     <h3
                         class="mb-6 text-3xl font-semibold text-start tracking-tighter text-slate-800 md:text-5xl lg:text-6xl">
                         Berita Terbaru

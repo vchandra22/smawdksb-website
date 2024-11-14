@@ -101,7 +101,7 @@
         </div>
     </div>
     <div class="sm:flex sm:items-center sm:justify-center bg-black py-2">
-        <span class="text-md text-slate-50 text-center sm:text-center">© 2024 <a href="#"
+        <span class="text-md text-slate-50 text-center sm:text-center ps-3 md:ps-0">© 2024 <a href="#"
                 class="hover:underline">SMA Wiyata Dharma Kesamben</a>.
         </span>
     </div>

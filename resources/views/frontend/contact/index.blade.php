@@ -43,6 +43,7 @@
         </div>
     </section>
 
+    {{--    kontak sekolah start--}}
     <section>
         <div class="max-w-screen-2xl mx-auto min-h-screen">
             <div class="py-32 px-4">
@@ -106,4 +107,5 @@
             </div>
         </div>
     </section>
+    {{--    kontak sekolah end--}}
 @endsection
