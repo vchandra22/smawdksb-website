@@ -1,10 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
 
 Route::get('/', function () {
-    return view('frontend/home/index');
+    return Inertia::render('Frontend/Home/Index');
 });
+
 Route::get('/berita', function () {
     return view('frontend/berita/index');
 });

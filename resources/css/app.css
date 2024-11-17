@@ -1,3 +1,19 @@
+@import '@splidejs/splide/css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.splide__pagination {
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    left: 15%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    width: 120px;
+}
+button.disabled {
+    display: none;
+}
+
