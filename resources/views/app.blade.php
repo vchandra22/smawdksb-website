@@ -50,6 +50,8 @@
     <script>
         window.appData = {
             logoUrl: "{{ asset('assets/img/logo-smawd-teks.png') }}",
+            logoFoot: "{{ asset('assets/img/logo-smawd-teks-footer.png') }}",
+            carouselImage: "{{ asset('assets/img/carousel-image.webp') }}",
         };
     </script>
 </body>
