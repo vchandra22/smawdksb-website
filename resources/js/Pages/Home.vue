@@ -614,7 +614,7 @@
     <!-- staff tenaga kependidikan end -->
 
     <!-- fasilitas sekolah start -->
-    <div class="py-20 bg-slate-50 px-4">
+    <div class="py-20 bg-slate-100 px-4">
         <div class="max-w-screen-2xl mx-auto">
             <div class="flex items-center justify-between gap-4">
                 <div>
