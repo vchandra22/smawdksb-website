@@ -52,6 +52,7 @@
             logoUrl: "{{ asset('assets/img/logo-smawd-teks.png') }}",
             logoFoot: "{{ asset('assets/img/logo-smawd-teks-footer.png') }}",
             carouselImage: "{{ asset('assets/img/carousel-image.webp') }}",
+            fotoSiswa: "{{ asset('assets/img/foto-siswa.webp') }}",
         };
     </script>
 </body>
