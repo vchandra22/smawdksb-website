@@ -1,7 +1,7 @@
 <template>
     <nav class="bg-slate-50 border-gray-200 md:border-b">
         <div class="w-full flex flex-wrap items-center justify-between mx-auto p-4">
-            <Link href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <Link :href="route('home')" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img :src="logoUrl" class="h-8 md:h-10 xl:h-12" alt="Logo SMA Wiyata Dharma Kesamben" />
             </Link>
             <button data-collapse-toggle="navbar-dropdown" type="button"
@@ -175,10 +175,11 @@
                             class="z-50 hidden font-normal border bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
                             <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                                 <li>
-                                    <Link href="/berita" class="block px-4 py-2 hover:bg-gray-100">Berita Terbaru</Link>
+                                    <Link :href="route('berita')" class="block px-4 py-2 hover:bg-gray-100">Berita
+                                    Terbaru</Link>
                                 </li>
                                 <li>
-                                    <Link href="#" class="block px-4 py-2 hover:bg-gray-100">Agenda Acara
+                                    <Link :href="route('agenda')" class="block px-4 py-2 hover:bg-gray-100">Agenda Acara
                                     Sekolah
                                     </Link>
                                 </li>
@@ -205,9 +206,13 @@
 
 <script>
 import { Link } from "@inertiajs/vue3";
+import { route } from "ziggy-js";
 
 export default {
     name: "Navbar",
+    methods: {
+        route,
+    },
     data() {
         return {
             logoUrl: window.appData.logoUrl,

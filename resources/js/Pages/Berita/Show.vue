@@ -100,98 +100,94 @@
                         Berita Terbaru
                     </h3>
                     <div class="mx-auto flex flex-col gap-3">
-                        <a href="#"
+                        <Link href="/berita/detail"
                             class="relative w-full h-42 lg:h-60 border-2 bg-slate-100 border-slate-400 rounded-lg group"
                             data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
                             data-aos-once="true">
-                            <img :src="carouselImage"
-                                class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
-                                height="100" alt="#">
-                            <div
-                                class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                        <img :src="carouselImage" class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                            width="100" height="100" alt="#">
+                        <div
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                        </div>
+                        <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                            <div class="h-full flex flex-col justify-end">
+                                <h3
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
+                                </h3>
+                                <p
+                                    class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
+                                    10 Juli 2024 oleh Admin
+                                </p>
                             </div>
-                            <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
-                                <div class="h-full flex flex-col justify-end">
-                                    <h3
-                                        class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
-                                        Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
-                                    </h3>
-                                    <p
-                                        class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
-                                        10 Juli 2024 oleh Admin
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#"
+                        </div>
+                        </Link>
+                        <Link href="#"
                             class="relative w-full h-42 lg:h-60 border-2 bg-slate-100 border-slate-400 rounded-lg group"
                             data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
                             data-aos-once="true">
-                            <img :src="carouselImage"
-                                class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
-                                height="100" alt="#">
-                            <div
-                                class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                        <img :src="carouselImage" class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                            width="100" height="100" alt="#">
+                        <div
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                        </div>
+                        <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                            <div class="h-full flex flex-col justify-end">
+                                <h3
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
+                                </h3>
+                                <p
+                                    class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
+                                    10 Juli 2024 oleh Admin
+                                </p>
                             </div>
-                            <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
-                                <div class="h-full flex flex-col justify-end">
-                                    <h3
-                                        class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
-                                        Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
-                                    </h3>
-                                    <p
-                                        class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
-                                        10 Juli 2024 oleh Admin
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#"
+                        </div>
+                        </Link>
+                        <Link href="#"
                             class="relative w-full h-42 lg:h-60 border-2 bg-slate-100 border-slate-400 rounded-lg group"
                             data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
                             data-aos-once="true">
-                            <img :src="carouselImage"
-                                class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
-                                height="100" alt="#">
-                            <div
-                                class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                        <img :src="carouselImage" class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                            width="100" height="100" alt="#">
+                        <div
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                        </div>
+                        <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                            <div class="h-full flex flex-col justify-end">
+                                <h3
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
+                                </h3>
+                                <p
+                                    class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
+                                    10 Juli 2024 oleh Admin
+                                </p>
                             </div>
-                            <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
-                                <div class="h-full flex flex-col justify-end">
-                                    <h3
-                                        class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
-                                        Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
-                                    </h3>
-                                    <p
-                                        class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
-                                        10 Juli 2024 oleh Admin
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#"
+                        </div>
+                        </Link>
+                        <Link href="#"
                             class="relative w-full h-42 lg:h-60 border-2 bg-slate-100 border-slate-400 rounded-lg group"
                             data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
                             data-aos-once="true">
-                            <img :src="carouselImage"
-                                class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg" width="100"
-                                height="100" alt="#">
-                            <div
-                                class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                        <img :src="carouselImage" class="h-full w-full overflow-hidden object-cover mx-auto rounded-lg"
+                            width="100" height="100" alt="#">
+                        <div
+                            class="absolute top-0 right-0 h-full w-full bg-slate-800 bg-opacity-60 group-hover:bg-opacity-90 duration-300 ease-in-out rounded-lg">
+                        </div>
+                        <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
+                            <div class="h-full flex flex-col justify-end">
+                                <h3
+                                    class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
+                                    Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
+                                </h3>
+                                <p
+                                    class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
+                                    10 Juli 2024 oleh Admin
+                                </p>
                             </div>
-                            <div class="absolute top-0 right-0 h-full w-full px-6 py-6 md:w-full">
-                                <div class="h-full flex flex-col justify-end">
-                                    <h3
-                                        class="text-slate-50 font-semibold min-h-16 md:min-h-20 text-start text-2xl md:text-4xl overflow-hidden line-clamp-2">
-                                        Mengasah Bakat Seni Workshop Lukisan dan Seni Kerajinan Lorem ipsum dolor sit.
-                                    </h3>
-                                    <p
-                                        class="mt-2 text-slate-50 font-regular text-start text-md md:text-lg lg:text-xl tracking-tight overflow-hidden line-clamp-1">
-                                        10 Juli 2024 oleh Admin
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
+                        </div>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -201,6 +197,8 @@
 </template>
 
 <script>
+import { Link } from "@inertiajs/vue3";
+
 export default {
     name: "Show",
     data() {
@@ -208,6 +206,9 @@ export default {
             fotoSiswa: window.appData.fotoSiswa,
             carouselImage: window.appData.carouselImage,
         }
+    },
+    components: {
+        Link,
     }
 }
 </script>

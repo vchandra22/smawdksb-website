@@ -11,7 +11,7 @@
             <nav class="flex px-4" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse m-0">
                     <li class="inline-flex items-center">
-                        <Link href="/"
+                        <Link :href="route('home')"
                             class="inline-flex items-center text-sm md:text-md font-medium text-slate-200 hover:text-slate-50 hover:underline hover:text-accent">
                         Beranda
                         </Link>
@@ -20,7 +20,7 @@
                         <div class="flex items-center">
                             <span
                                 class="items-center text-sm md:text-md font-medium text-slate-100 hover:text-slate-50">/</span>
-                            <a href="#"
+                            <a :href="route('berita')"
                                 class="ms-1 text-sm md:text-md font-medium text-slate-50 hover:underline overflow-hidden line-clamp-1 md:ms-2">Berita,
                                 Artikel & Informasi</a>
                         </div>
@@ -43,7 +43,7 @@
     <!-- berita card list start -->
     <section class="max-w-screen-2xl mx-auto bg-slate-50">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-20 px-4">
-            <Link href="/berita/detail"
+            <Link :href="route('detail-berita')"
                 class="relative w-full h-64 lg:h-72 border-2 bg-slate-100 border-slate-400 rounded-lg group"
                 data-aos="fade" data-aos-delay="600" data-aos-duration="600" data-aos-easing="ease-in-out"
                 data-aos-once="true">
@@ -160,9 +160,13 @@
 
 <script>
 import { Link } from "@inertiajs/vue3";
+import { route } from "ziggy-js";
 
 export default {
-    name: "Index",
+    name: "Berita",
+    methods: {
+        route,
+    },
     data() {
         return {
             carouselImage: window.appData.carouselImage,

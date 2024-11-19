@@ -38,6 +38,7 @@
     {{-- Load CSS and JS files with Vite --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @inertiaHead
+    @routes
 
     <title>Document</title>
 </head>
@@ -53,6 +54,7 @@
             logoFoot: "{{ asset('assets/img/logo-smawd-teks-footer.png') }}",
             carouselImage: "{{ asset('assets/img/carousel-image.webp') }}",
             fotoSiswa: "{{ asset('assets/img/foto-siswa.webp') }}",
+            fotoKalender: "{{ asset('assets/img/foto-kalender.webp') }}",
         };
     </script>
 </body>
